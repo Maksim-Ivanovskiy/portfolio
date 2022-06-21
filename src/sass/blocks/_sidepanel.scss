@@ -29,4 +29,16 @@
             width: 150px;
         }
     }
+
+    &.reverse {
+        color: white;
+    
+        .sidepanel__divider {
+            background: white;
+        }
+    
+        path {
+            fill: white;
+        }
+    }
 }
